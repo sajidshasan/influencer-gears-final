@@ -76,3 +76,19 @@ main section
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* --------------
+buyer section
+----------------- */
+.buyers{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 165px;
+    padding: 36px 62px;
+}
+hr{
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+    width: 80%;
+}
