@@ -1,3 +1,9 @@
+/* font */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
 /* ---------------
 header
 ---------------- */
@@ -19,8 +25,9 @@ header
     color: #3A3A3A;
 }
 
-.nav-items a, i {
-padding-right: 34px;
+.nav-items a,
+i {
+    padding-right: 34px;
 }
 
 .header-paragraph {
@@ -28,4 +35,44 @@ padding-right: 34px;
     font-weight: 700;
     font-size: 24px;
     color: #3A3A3A;
+}
+
+/* -----------------
+main section
+---------------- */
+
+/* journey section */
+.journey{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 0px 120px 100px 120px;
+    gap: 107px;
+}
+.journey-title {
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 0px;
+}
+.journey-details{
+    color: #3A3A3A;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.button-primary {
+    padding: 10px 0px 10px 10px;
+    font-weight: 700;
+    background: #E02C6D;
+    color: #FFFFFF;
+    border-radius: 41px;
+    border: none;
+    text-align: center;
+}
+.journey-picture{
+    
+    background-image: url(../images/Circle\ design.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
